@@ -1,0 +1,22 @@
+{
+  "name": "keycode-enum",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "extract": "node --loader ts-node/esm ./bin/extract.ts"
+  },
+  "author": "Leo Zurbriggen",
+  "license": "MIT",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^3.1.0",
+    "ts-morph": "^13.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "files": [
+    "./src/codes.ts"
+  ],
+  "types": "./src/codes.ts"
+}
